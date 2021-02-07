@@ -26,3 +26,16 @@ pip3 install adafruit-circuitpython-ads1x15</br>
 sudo apt-get install -y python-smbus</br>
 sudo apt-get install i2c-tools</br>
 //sudo apt-get install -y i2c-tools</br>
+
+python3 humidity.py</br>
+
+output
+---
+  raw       v
+22743   2.813
+22560   2.791
+22525   2.787
+22520   2.786
+22522   2.786
+22524   2.785
+
