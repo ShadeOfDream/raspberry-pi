@@ -1,0 +1,15 @@
+mkdir projectfolder</br>
+cd projectfolder</br>
+
+sudo apt-get install python3</br>
+python3 --version</br>
+sudo apt-get install pip3
+
+touch app.py</br>
+touch get_data.py</br>
+touch humidity.py</br>
+
+in firebase
+---
+create project projectsmart</br>
+add app web and copy config information to code file
