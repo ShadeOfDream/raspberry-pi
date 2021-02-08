@@ -61,7 +61,7 @@ output in firebase live child</br>
       wt_level: 129.6501636505127
  
  python3 app.py (push data)
- output in firebase live child</br>
+ output in firebase data child</br>
     data: 
       -MSyzu5vlMEaIoQ7M3-X
         humidity: 52
