@@ -1,3 +1,4 @@
+raspberry samba service installed and in file explorer \\pi_ip_address and login information and achieve pi file and open vscode code file.
 mkdir projectfolder</br>
 cd projectfolder</br>
 
@@ -52,11 +53,25 @@ pip3 install gcloud</br>
 pip3 install requests-toolbelt</br>
 ---
 in firebase rule read-write true </br>
-pytjon3 app.py
+python3 app.py (live update)
 output in firebase live child</br>
     live:
       humidity: 56
       temperature: 23
       wt_level: 129.6501636505127
+ 
+ python3 app.py (push data)
+ output in firebase live child</br>
+    data: 
+      -MSyzu5vlMEaIoQ7M3-X
+        humidity: 52
+        temperature: 23
+        timestamp: 1612743418.2235966
+        wt_level: 1612743418.2235966
+        
+ python3 get_data.py 
+  output: removed MSyzu5vlMEaIoQ7M3-X child in firebase.
+        
+  
 
 
