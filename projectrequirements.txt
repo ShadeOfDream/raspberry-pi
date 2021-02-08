@@ -5,6 +5,7 @@ sudo apt-get update</br>
 sudo apt-get upgrade</br>
 
 sudo apt-get install python3</br>
+sudo apt-get install -y python3-setuptools</br>
 python3 --version</br>
 sudo apt-get install pip3
 
@@ -38,4 +39,24 @@ output
 22520   2.786
 22522   2.786
 22524   2.785
+
+---
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git 
+cd Adafruit_Python_DHT 
+sudo python3 setup.py install</br>
+sudo pip3 install python-firebase</br>
+pip3 install firebase</br>
+pip3 install python-jwt</br>
+pip3 install sseclient</br>
+pip3 install gcloud</br>
+pip3 install requests-toolbelt</br>
+---
+in firebase rule read-write true </br>
+pytjon3 app.py
+output in firebase live child</br>
+    live:
+      humidity: 56
+      temperature: 23
+      wt_level: 129.6501636505127
+
 
